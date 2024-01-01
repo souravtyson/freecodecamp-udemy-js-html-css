@@ -1,0 +1,58 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <div class="container">
+        <header class="margin-top-bottom">
+            <h1 id="title" class="font-style-color">Freecodecamp Survey Form</h1>
+            <p id="description" class="font-style-color">This is freecodecamp survey form for freecodecamp</p>
+        </header>
+        <form id="survey-form" class="margin-top-bottom">
+            <div>
+                <label id="name-label">Name:
+                    <input id="name" type="text" required placeholder="Enter your name" />
+                </label>
+            </div>
+            <div>
+                <label id="email-label">Email:
+                    <input id="email" type="email" placeholder="Enter email id" required />
+                </label>
+            </div>
+            <div>
+                <label id="number-label">Age(Optional): <input id="number" placeholder="Enter you age" type="number"
+                        max="80" min="18" />
+                </label>
+            </div>
+            <div>
+                <label> Slect from dropdown :
+                    <select id="dropdown">
+                        <option value="">(select option)</option>
+                        <option value="hello">Hi</option>
+                    </select>
+                </label>
+            </div>
+            <div>
+                <label><input type="radio" checked name="io" value="1" />Radio 1</label>
+                <label><input type="radio" name="io" value="2" /> Radio 2</label>
+            </div>
+            <div>
+                <label>Select the module that you like to be improved:
+                    <input type="checkbox" value="1" name="hello" />Hello
+                    <input type="checkbox" name="hello" value="2" />Hello
+                    <input type="checkbox" name="hello" value="3" />Hello
+                </label>
+            </div>
+            <div>
+                <textarea></textarea>
+            </div>
+            <input type="submit" id="submit" />
+        </form>
+    </div>
+</body>
+
+</html>
